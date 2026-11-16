@@ -28,7 +28,7 @@
 
   <path d="M330 236c18-6 26-40 44-48s22 18 38 4 18-38 30-44" fill="none" stroke="#6f9f00"
         stroke-width="1.8" stroke-linecap="round"/>
-  <g stroke="#ececec" stroke-width="1">
+  <g stroke="#ececec" stroke-width="1" fill="none">
     <path d="M330 236h112"/>
     <path d="M330 196h112"/>
     <path d="M330 156h112"/>

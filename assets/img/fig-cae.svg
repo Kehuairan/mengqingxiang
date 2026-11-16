@@ -20,7 +20,7 @@
 
   <!-- 模型树 -->
   <path d="M36 70v210" stroke="#ececec"/>
-  <g stroke="#d4d4d4" stroke-width="1">
+  <g stroke="#d4d4d4" stroke-width="1" fill="none">
     <path d="M50 92h74M58 112h56M58 132h64M58 152h48M58 172h58M58 192h40"/>
   </g>
   <rect x="46" y="86" width="6" height="6" fill="#6f9f00"/>
@@ -41,7 +41,7 @@
 
   <!-- 控制台 -->
   <path d="M348 70v210" stroke="#ececec"/>
-  <g stroke="#dcdcdc" stroke-width="1">
+  <g stroke="#dcdcdc" stroke-width="1" fill="none">
     <path d="M362 96h66M362 112h48M362 128h60M362 144h36"/>
   </g>
   <g fill="#e8e8e8">

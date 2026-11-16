@@ -1,22 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="有限元网格与裂纹扩展示意图">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="试样细观网格与裂纹扩展示意图">
   <defs>
-    <pattern id="mesh" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M0 0h40M0 0v40M0 0l40 40" fill="none" stroke="#e6e6e6" stroke-width="1"/>
+    <pattern id="mesh2" width="30" height="26" patternUnits="userSpaceOnUse">
+      <path d="M0 0h30M0 0l30 26M30 0L0 26" fill="none" stroke="#dcdcdc" stroke-width="1"/>
     </pattern>
-    <clipPath id="frame"><rect x="1" y="1" width="478" height="318"/></clipPath>
+    <clipPath id="spec"><rect x="140" y="60" width="200" height="200"/></clipPath>
   </defs>
   <rect width="480" height="320" fill="#ffffff"/>
-  <rect x="1" y="1" width="478" height="318" fill="url(#mesh)" clip-path="url(#frame)"/>
-  <path d="M40 236c46-26 62 14 104-6s52-46 96-40 44 26 86 10 58-30 114-16"
-        fill="none" stroke="#6f9f00" stroke-width="2.4" stroke-linecap="round"/>
-  <path d="M40 236c46-26 62 14 104-6" fill="none" stroke="#6f9f00" stroke-width="2.4"
-        stroke-linecap="round" stroke-dasharray="5 7" opacity="0.55"/>
-  <circle cx="144" cy="230" r="4.5" fill="#6f9f00"/>
-  <circle cx="144" cy="230" r="12" fill="none" stroke="#6f9f00" stroke-width="1" opacity="0.5"/>
-  <g stroke="#9a9a9a" stroke-width="1.2" fill="none">
-    <path d="M40 44v-16m0 16h-8m8 0h8"/>
-    <path d="M440 44v-16m0 16h-8m8 0h8"/>
+
+  <!-- 试样与网格 -->
+  <rect x="140" y="60" width="200" height="200" fill="url(#mesh2)" clip-path="url(#spec)"/>
+  <rect x="140" y="60" width="200" height="200" fill="none" stroke="#1d1d1d" stroke-width="1.6"/>
+
+  <!-- 缺口 -->
+  <path d="M214 260l26-26 26 26" fill="#ffffff" stroke="#1d1d1d" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- 裂纹 -->
+  <path d="M240 234c-8-26 10-40 4-64s12-38 6-58 -2-30 2-44" fill="none"
+        stroke="#6f9f00" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M252 68c4-14 2-24 2-30" fill="none" stroke="#6f9f00" stroke-width="2.2"
+        stroke-linecap="round" stroke-dasharray="5 6"/>
+
+  <!-- 加载箭头 -->
+  <g stroke="#8c8c8c" stroke-width="1.3" fill="none">
+    <path d="M240 40V16m-5 7 5-7 5 7"/>
+    <path d="M240 300v-24m-5-7 5 7 5-7"/>
+    <path d="M120 150h12m-5-5 5 5-5 5"/>
+    <path d="M120 190h12m-5-5 5 5-5 5"/>
   </g>
-  <text x="240" y="34" text-anchor="middle" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif"
-        font-size="13" letter-spacing="2" fill="#909090">拉伸载荷</text>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11"
+     letter-spacing="1.5" fill="#9a9a9a">
+    <text x="240" y="12" text-anchor="middle">拉伸载荷</text>
+    <text x="356" y="96">裂纹</text>
+    <text x="264" y="274">缺口</text>
+    <text x="96" y="172">网格</text>
+  </g>
+  <path d="M352 100l-16 22" stroke="#dcdcdc" fill="none"/>
 </svg>

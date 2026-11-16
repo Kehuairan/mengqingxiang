@@ -27,7 +27,7 @@
   <circle cx="336" cy="252" r="3" fill="#6f9f00"/>
 
   <!-- 水压力 -->
-  <g stroke="#9a9a9a" stroke-width="1.2">
+  <g stroke="#9a9a9a" stroke-width="1.2" fill="none">
     <path d="M120 150h30m-6-4 6 4-6 4"/>
     <path d="M120 186h20m-6-4 6 4-6 4"/>
     <path d="M120 222h12m-6-4 6 4-6 4"/>
