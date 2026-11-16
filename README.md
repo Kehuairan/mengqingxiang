@@ -101,6 +101,9 @@ git commit -m "更新内容"
 git push
 ```
 
+或者更省事：**双击 `发布更新.bat`**，它会自动提交、推送，失败自动重试最多 8 次
+（GitHub 偶尔会返回 `fatal error in commit_refs_rules`，重试即可通过），成功后提示网址。
+
 一分钟左右自动重新构建，刷新页面即可看到。其余部署方式：
 
 - **本地预览**：双击 `打开网站.bat`，或运行 `python -m http.server 8000`，
