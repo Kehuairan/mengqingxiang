@@ -1,6 +1,9 @@
 # 孟庆祥课题组主页
 
 河海大学土木与交通学院 · 孟庆祥课题组
+
+**线上地址：<https://kehuairan.github.io/meng-lab/>** · 仓库：<https://github.com/Kehuairan/meng-lab>
+
 纯静态站点，无构建步骤、无外部依赖（不加载 Google Fonts / CDN），
 双击 `index.html` 即可在本地预览，也可以直接上传到任何静态托管。
 
@@ -86,11 +89,21 @@
 
 ## 部署
 
-- **本地预览**：双击 `index.html`；或在该目录运行 `python -m http.server 8000`，
+已部署在 GitHub Pages（`main` 分支根目录，`https://kehuairan.github.io/meng-lab/`）。
+改完内容后执行：
+
+```bash
+git add -A
+git commit -m "更新内容"
+git push
+```
+
+一分钟左右自动重新构建，刷新页面即可看到。其余部署方式：
+
+- **本地预览**：双击 `打开网站.bat`，或运行 `python -m http.server 8000`，
   访问 `http://localhost:8000`。
 - **学校 / 学院服务器**：把整个文件夹（含 `assets`）上传到站点根目录即可，无需 PHP 或数据库。
-- **GitHub Pages**：推送到 GitHub，在 Settings → Pages 选择分支与根目录，
-  再在仓库根目录加一个空的 `.nojekyll` 文件。
+- **换一个 GitHub 账号 / 仓库**：在仓库 Settings → Pages 里改分支，或重新 `git remote set-url`。
 
 ## 内容维护
 
