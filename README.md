@@ -2,7 +2,7 @@
 
 河海大学土木与交通学院 · 孟庆祥课题组
 
-**线上地址：<https://kehuairan.github.io/meng-lab/>** · 仓库：<https://github.com/Kehuairan/meng-lab>
+**线上地址：<https://kehuairan.github.io/mengqingxiang/>** · 仓库：<https://github.com/Kehuairan/mengqingxiang>
 
 纯静态站点，无构建步骤、无外部依赖（不加载 Google Fonts / CDN），
 双击 `index.html` 即可在本地预览，也可以直接上传到任何静态托管。
@@ -92,7 +92,7 @@
 
 ## 部署
 
-已部署在 GitHub Pages（`main` 分支根目录，`https://kehuairan.github.io/meng-lab/`）。
+已部署在 GitHub Pages（`main` 分支根目录，`https://kehuairan.github.io/mengqingxiang/`）。
 改完内容后执行：
 
 ```bash
