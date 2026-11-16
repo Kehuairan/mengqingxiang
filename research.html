@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>研究方向 | 孟庆祥课题组</title>
+<meta name="description" content="课题组研究方向：AI 驱动的物理模拟与模型生成、多场多尺度数值方法、工程智能化与数字孪生、城市水力学与河湖治理、坝基与地下工程、CAE 核心系统开发。">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+<script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-cn">孟庆祥课题组</span>
+      <span class="brand-en">河海大学 · 土木与交通学院</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      菜单
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a class="is-active" href="research.html" aria-current="page">研究方向</a>
+      <a href="publications.html">发表论文</a>
+      <a href="achievements.html">成果</a>
+      <a href="join.html">加入我们</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="content content--wide">
+      <h1 class="page-title">研究方向</h1>
+      <p class="page-intro">
+        课题组的研究沿着一条主线展开：把复杂工程材料与结构的力学行为，用可计算、可验证的模型描述出来。
+        方法上以多场多尺度数值方法为骨架，用人工智能加速与增强，最终以软件和平台的形式交付给工程使用。
+      </p>
+
+      <div class="entry entry--fig" id="ai">
+        <div>
+          <h2>AI 驱动的物理模拟与模型生成</h2>
+          <p class="entry-meta"><b>关键词</b>　深度学习 · 生成模型 · 代理模型 · 智能反演</p>
+          <p>
+            把人工智能放进计算力学的循环里：一方面用生成模型从图像、点云与地质资料直接重建三维几何与材料分布，
+            另一方面用神经网络代理求解器，在保证物理一致性的前提下把单次分析从小时级压缩到分钟、秒级；
+            再结合数据同化与反演，让现场监测反过来修正模型。
+          </p>
+          <ul>
+            <li>基于深度学习的网格自动剖分与模型重建</li>
+            <li>物理约束的代理模型与算子学习</li>
+            <li>监测数据驱动的参数反演与预测</li>
+          </ul>
+        </div>
+        <figure class="entry-fig">
+          <img src="assets/img/fig-data.svg" alt="实验与监测数据、模型预测及置信区间示意图" width="480" height="320">
+          <figcaption>数据驱动的模型标定与预测（示意）</figcaption>
+        </figure>
+      </div>
+
+      <div class="entry entry--fig" id="multiscale">
+        <div>
+          <h2>多场多尺度数值方法</h2>
+          <p class="entry-meta"><b>关键词</b>　细观建模 · 均匀化 · 渗流—应力—损伤耦合</p>
+          <p>
+            岩体、混凝土与土石混合体都是非均质材料。我们从数字图像与地质统计出发重建骨料、颗粒与节理的真实空间结构，
+            建立细观模型；再通过均匀化与多尺度耦合，把细观尺度的损伤演化传递到工程尺度，
+            处理渗流、应力、温度与化学作用下的多场耦合问题。
+          </p>
+          <ul>
+            <li>非凸颗粒土石混合体的三维细观建模</li>
+            <li>柱状节理岩体的各向异性与卸荷流变</li>
+            <li>水力劈裂与渗流—应力耦合分析</li>
+          </ul>
+        </div>
+        <figure class="entry-fig">
+          <img src="assets/img/fig-crack.svg" alt="细观网格与裂纹扩展示意图" width="480" height="320">
+          <figcaption>细观网格离散与裂纹路径（示意）</figcaption>
+        </figure>
+      </div>
+
+      <div class="entry entry--fig" id="twin">
+        <div>
+          <h2>工程智能化与数字孪生</h2>
+          <p class="entry-meta"><b>关键词</b>　数字孪生 · 智能反演 · 施工期预测</p>
+          <p>
+            面向高坝、地下厂房与高边坡，把仿真模型与现场监测、施工进度打通，形成可随施工推进而更新的"活模型"：
+            用智能反演识别难以直接测量的地质参数，用快速预测回答"下一步会怎样"，
+            让数值分析真正进入工程决策的日常流程。
+          </p>
+          <ul>
+            <li>地下厂房开挖的智能反演</li>
+            <li>施工期监测数据同化与快速预测</li>
+            <li>高边坡与洞室的在线预警</li>
+          </ul>
+        </div>
+        <figure class="entry-fig">
+          <img src="assets/img/fig-twin.svg" alt="三维工程模型与监测数据联动示意图" width="480" height="320">
+          <figcaption>三维模型与监测数据联动的数字孪生（示意）</figcaption>
+        </figure>
+      </div>
+
+      <div class="entry entry--fig" id="water">
+        <div>
+          <h2>城市水力学与河湖治理</h2>
+          <p class="entry-meta"><b>关键词</b>　城市洪涝 · 管网—河网耦合 · 水环境</p>
+          <p>
+            把水动力、排水管网与水质模型耦合起来，评估城市内涝风险、调度方案与治理措施的效果。
+            模型不止停留在报告里，还会被做成可运行的系统（见<a href="achievements.html">成果</a>页）。
+          </p>
+          <ul>
+            <li>管网—河网—地表耦合的水动力模拟</li>
+            <li>内涝风险评估与调度方案比选</li>
+            <li>流域水环境治理的数字化管理</li>
+          </ul>
+        </div>
+        <figure class="entry-fig">
+          <img src="assets/img/fig-river.svg" alt="河网、支流与监测断面示意图" width="480" height="320">
+          <figcaption>河网概化与监测断面布设（示意）</figcaption>
+        </figure>
+      </div>
+
+      <div class="entry entry--fig" id="dam">
+        <div>
+          <h2>坝基、高边坡及地下工程</h2>
+          <p class="entry-meta"><b>关键词</b>　高拱坝 · 坝基稳定 · 边坡与地下洞室</p>
+          <p>
+            课题组参与锦屏一级、两河口、二滩、杨房沟、卡拉、官地等 20 余座高坝的分析与复核，
+            围绕坝体—坝基整体受力、深层抗滑稳定、边坡变形与地下洞室围岩稳定开展三维数值分析与安全评价，
+            为设计方案比选与加固措施提供依据。
+          </p>
+          <ul>
+            <li>坝体—坝基整体三维数值分析</li>
+            <li>深层抗滑稳定与加固方案比选</li>
+            <li>高边坡与地下洞室的施工期稳定</li>
+          </ul>
+        </div>
+        <figure class="entry-fig">
+          <img src="assets/img/fig-dam.svg" alt="坝体、坝基与潜在滑面示意图" width="480" height="320">
+          <figcaption>坝体—坝基整体分析与潜在滑面（示意）</figcaption>
+        </figure>
+      </div>
+
+      <div class="entry entry--fig" id="cae">
+        <div>
+          <h2>CAE 核心系统开发</h2>
+          <p class="entry-meta"><b>关键词</b>　前后处理 · 网格剖分 · 开源软件</p>
+          <p>
+            算法只有变成工具才算完成。课题组独立开发开源软件与多个行业系统，
+            覆盖几何建模、网格剖分、求解与后处理全链条，用 C++、Python、C# 把研究代码做成工程师真正愿意用的软件；
+            已发布的软件见<a href="achievements.html">成果</a>页。
+          </p>
+          <ul>
+            <li>自研求解器与前后处理框架</li>
+            <li>网格自动剖分与大规模可视化</li>
+            <li>面向行业的专用分析系统</li>
+          </ul>
+        </div>
+        <figure class="entry-fig">
+          <img src="assets/img/fig-cae.svg" alt="CAE 软件界面：模型树、网格与求解信息" width="480" height="320">
+          <figcaption>自研软件的前后处理与求解流程（示意）</figcaption>
+        </figure>
+      </div>
+
+      <h2 class="sec-title">科研项目</h2>
+      <ul class="rows">
+        <li class="row">
+          <span class="label">2018–2020</span>
+          <p>国家自然科学基金青年项目（51709089）：柱状节理岩体卸荷破坏时效力学机理试验与数值模拟研究，主持</p>
+        </li>
+        <li class="row">
+          <span class="label">2018–2021</span>
+          <p>国家重点研发计划第四课题专题二（2018YFC0407004）：库岸边坡与地质环境互馈作用多尺度数值模拟方法，主持</p>
+        </li>
+        <li class="row">
+          <span class="label">2022–2023</span>
+          <p>水利部水工程建设与安全重点实验室开放研究基金：高水头作用下岩体水力劈裂试验及数值方法研究，主持</p>
+        </li>
+        <li class="row">
+          <span class="label">2021–至今</span>
+          <p>技术开发项目：基于深度学习和网格自动剖分的地下厂房智能反演与预测技术开发，主持</p>
+        </li>
+        <li class="row">
+          <span class="label">2023–至今</span>
+          <p>工程科研项目：复杂赋存条件下西南红层软岩隧洞变形特征及控制关键技术研究，主持</p>
+        </li>
+        <li class="row">
+          <span class="label">2022</span>
+          <p>技术开发项目：店埠河流域水环境治理工程智慧排水管理系统，主持</p>
+        </li>
+        <li class="row">
+          <span class="label">2021–2022</span>
+          <p>工程科研项目：卡拉水电站大坝应力变形及坝基深层抗滑稳定、消力池整体三维数值计算，主持</p>
+        </li>
+        <li class="row">
+          <span class="label">2018–2020</span>
+          <p>中国博士后科学基金特别资助（2018T110434）：柱状节理岩体卸荷破坏细观力学机理及多尺度数值模拟，主持</p>
+        </li>
+      </ul>
+
+      <div class="cta">
+        <h2>想一起做点真问题？</h2>
+        <p>课题组常年与设计院、研究院和企业合作，欢迎带着具体工程问题来聊，也欢迎对编程与力学都感兴趣的同学加入。</p>
+        <a class="btn" href="join.html">加入我们</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-brand">孟庆祥课题组</p>
+    <ul class="footer-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="research.html">研究方向</a></li>
+      <li><a href="publications.html">发表论文</a></li>
+      <li><a href="achievements.html">成果</a></li>
+      <li><a href="join.html">加入我们</a></li>
+    </ul>
+    <p class="footer-note">
+      河海大学土木与交通学院 · 南京市西康路 1 号 210098 · mqx@hhu.edu.cn ·
+      © <span data-year>2026</span> 孟庆祥课题组 · 最后更新 2026 年 11 月
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

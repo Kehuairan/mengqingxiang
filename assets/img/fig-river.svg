@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="河网与监测断面示意图">
+  <rect width="480" height="320" fill="#ffffff"/>
+
+  <!-- 干流 -->
+  <path d="M20 258C96 246 118 186 182 174s102 26 148-18 62-62 106-72" fill="none"
+        stroke="#f0f0f0" stroke-width="26" stroke-linecap="round"/>
+  <path d="M20 258C96 246 118 186 182 174s102 26 148-18 62-62 106-72" fill="none"
+        stroke="#c9c9c9" stroke-width="1.2" stroke-dasharray="6 7"/>
+
+  <!-- 支流 -->
+  <g fill="none" stroke="#e2e2e2" stroke-width="7" stroke-linecap="round">
+    <path d="M132 40c14 42 30 74 52 108"/>
+    <path d="M270 44c4 44-6 76-26 106"/>
+    <path d="M356 296c-8-34-10-66-6-100"/>
+  </g>
+  <g fill="none" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="4 6">
+    <path d="M132 40c14 42 30 74 52 108"/>
+    <path d="M270 44c4 44-6 76-26 106"/>
+    <path d="M356 296c-8-34-10-66-6-100"/>
+  </g>
+
+  <!-- 流向 -->
+  <g stroke="#6f9f00" stroke-width="1.6" fill="none">
+    <path d="M96 232l26-6m-10-5 10 5-9 7"/>
+    <path d="M292 150l24-16m-13-1 13 1-2 13"/>
+  </g>
+
+  <!-- 监测断面 -->
+  <circle cx="196" cy="172" r="6" fill="#ffffff" stroke="#6f9f00" stroke-width="2"/>
+  <circle cx="196" cy="172" r="12" fill="none" stroke="#6f9f00" stroke-width="1" opacity="0.45"/>
+  <circle cx="396" cy="112" r="6" fill="#ffffff" stroke="#6f9f00" stroke-width="2"/>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11"
+     letter-spacing="1.5" fill="#8c8c8c">
+    <text x="40" y="292">干流</text>
+    <text x="120" y="30">支流</text>
+    <text x="216" y="164" fill="#6f9f00">监测断面</text>
+  </g>
+
+  <!-- 断面示意 -->
+  <g transform="translate(330,214)">
+    <rect x="0" y="24" width="118" height="46" fill="none" stroke="#dcdcdc"/>
+    <path d="M0 24h22l14 34H0zM74 24h44v46H60z" fill="none" stroke="#dcdcdc"/>
+    <path d="M22 40h52" stroke="#6f9f00" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <text x="24" y="80" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="10"
+          letter-spacing="1" fill="#9a9a9a">断面水位</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="实验数据与模型预测对比示意图">
+  <rect width="480" height="320" fill="#ffffff"/>
+  <g stroke="#e6e6e6" stroke-width="1">
+    <path d="M56 44v220h372"/>
+  </g>
+  <g fill="#1d1d1d" opacity="0.55">
+    <circle cx="96" cy="222" r="3.2"/>
+    <circle cx="128" cy="206" r="3.2"/>
+    <circle cx="156" cy="212" r="3.2"/>
+    <circle cx="188" cy="182" r="3.2"/>
+    <circle cx="214" cy="192" r="3.2"/>
+    <circle cx="246" cy="158" r="3.2"/>
+    <circle cx="276" cy="150" r="3.2"/>
+    <circle cx="302" cy="136" r="3.2"/>
+    <circle cx="338" cy="112" r="3.2"/>
+    <circle cx="368" cy="96" r="3.2"/>
+    <circle cx="398" cy="86" r="3.2"/>
+  </g>
+  <path d="M84 240c50-6 92-52 132-84s96-66 140-78 48-14 56-14" fill="none"
+        stroke="#6f9f00" stroke-width="2.2" stroke-linecap="round"/>
+  <g fill="#6f9f00">
+    <circle cx="216" cy="156" r="3.6"/>
+    <circle cx="304" cy="110" r="3.6"/>
+  </g>
+  <g font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" letter-spacing="1.5" fill="#9a9a9a">
+    <text x="64" y="34">实验数据</text>
+    <text x="120" y="34" fill="#6f9f00">·  模型预测</text>
+  </g>
+</svg>

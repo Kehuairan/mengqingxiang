@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="CAE 软件界面示意图：模型树、网格与求解信息">
+  <defs>
+    <pattern id="cae-mesh" width="24" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 0h24M0 0l24 20M24 0L0 20" fill="none" stroke="#e6e6e6" stroke-width="1"/>
+    </pattern>
+    <clipPath id="cae-clip"><rect x="150" y="104" width="180" height="126"/></clipPath>
+  </defs>
+  <rect width="480" height="320" fill="#ffffff"/>
+
+  <!-- 窗口 -->
+  <rect x="36" y="42" width="408" height="238" fill="#ffffff" stroke="#1d1d1d" stroke-width="1.4"/>
+  <path d="M36 70h408" stroke="#1d1d1d" stroke-width="1"/>
+  <g fill="#c9c9c9">
+    <circle cx="52" cy="56" r="3"/>
+    <circle cx="64" cy="56" r="3"/>
+    <circle cx="76" cy="56" r="3"/>
+  </g>
+  <text x="96" y="60" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="10"
+        letter-spacing="1" fill="#8c8c8c">DigiSim / 网格与求解</text>
+
+  <!-- 模型树 -->
+  <path d="M36 70v210" stroke="#ececec"/>
+  <g stroke="#d4d4d4" stroke-width="1">
+    <path d="M50 92h74M58 112h56M58 132h64M58 152h48M58 172h58M58 192h40"/>
+  </g>
+  <rect x="46" y="86" width="6" height="6" fill="#6f9f00"/>
+
+  <!-- 视图区 -->
+  <rect x="150" y="104" width="180" height="126" fill="url(#cae-mesh)" clip-path="url(#cae-clip)"/>
+  <path d="M150 104h180v126h-180z" fill="none" stroke="#dcdcdc"/>
+  <path d="M196 104l38 126" stroke="#6f9f00" stroke-width="1.4" opacity="0.9"/>
+  <circle cx="234" cy="230" r="3.4" fill="#6f9f00"/>
+
+  <!-- 标尺 -->
+  <path d="M150 246h180" stroke="#dcdcdc"/>
+  <path d="M150 242v8M195 244v4M240 242v8M285 244v4M330 242v8" stroke="#dcdcdc"/>
+  <text x="150" y="268" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="9"
+        letter-spacing="1" fill="#a3a3a3">0</text>
+  <text x="318" y="268" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="9"
+        letter-spacing="1" fill="#a3a3a3">100 m</text>
+
+  <!-- 控制台 -->
+  <path d="M348 70v210" stroke="#ececec"/>
+  <g stroke="#dcdcdc" stroke-width="1">
+    <path d="M362 96h66M362 112h48M362 128h60M362 144h36"/>
+  </g>
+  <g fill="#e8e8e8">
+    <rect x="362" y="164" width="66" height="8"/>
+    <rect x="362" y="180" width="44" height="8"/>
+  </g>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="10" letter-spacing="1">
+    <text x="362" y="220" fill="#6f9f00">&gt; 求解完成</text>
+    <text x="362" y="238" fill="#a3a3a3">残差 1.2e-06</text>
+    <text x="362" y="256" fill="#a3a3a3">单元 1.84 M</text>
+  </g>
+
+  <text x="36" y="306" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="10"
+        letter-spacing="1" fill="#9a9a9a">前后处理 · 网格剖分 · 求解</text>
+</svg>
