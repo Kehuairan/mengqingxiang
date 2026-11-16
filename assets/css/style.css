@@ -495,10 +495,15 @@ img {
 }
 
 .toc a::after {
-  content: "→";
-  color: #bdbdbd;
-  font-size: 0.85rem;
-  transition: color 0.2s var(--ease), transform 0.2s var(--ease);
+  content: "";
+  flex: none;
+  width: 6px;
+  height: 6px;
+  margin-top: 3px;
+  border-right: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  transform: rotate(-45deg);
+  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease);
 }
 
 .toc a:hover {
@@ -507,8 +512,8 @@ img {
 }
 
 .toc a:hover::after {
-  color: var(--accent-ink);
-  transform: translateX(2px);
+  border-color: var(--accent-ink);
+  transform: rotate(-45deg) translate(1px, -1px);
 }
 
 /* 成员 -------------------------------------------------------------------- */
